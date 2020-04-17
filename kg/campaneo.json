@@ -1,0 +1,1563 @@
+{
+  "@context": {
+    "dpv": "http://www.w3.org/ns/dpv#",
+    "ontology": "http://dbpedia.org/ontology/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "dpv:Restrict",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#MakeAvailable",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:MakeAvailable"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#DiscloseByTransmission",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:DiscloseByTransmission"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Disclose",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Disclose"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#UseOfCityStreets",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:AcademicResearch"
+      ]
+    },
+    {
+      "@id": "dpv:provisionMethod",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "dpv:SellDataToThirdParties",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:CommercialInterest"
+      }
+    },
+    {
+      "@id": "dpv:Erase",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Remove"
+      }
+    },
+    {
+      "@id": "sosa:Result",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "dpv:Remove",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Processing"
+      }
+    },
+    {
+      "@id": "dpv:Collect",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Obtain"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasApiVersion",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "ontology:Automobile",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ob7",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Observation"
+      ],
+      "sosa:madeBySensor": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "sosa:resultTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-10T07:30:22"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ob6",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Observation"
+      ],
+      "sosa:madeBySensor": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "sosa:resultTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-10T07:30:20"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ob5",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Observation"
+      ],
+      "sosa:madeBySensor": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "sosa:resultTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-10T07:30:18"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ob4",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Observation"
+      ],
+      "sosa:madeBySensor": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "sosa:resultTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-10T07:30:16"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ob3",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Observation"
+      ],
+      "sosa:madeBySensor": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "sosa:resultTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-10T07:30:14"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ob2",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Observation"
+      ],
+      "sosa:madeBySensor": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "sosa:resultTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-10T07:30:12"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ob1",
+      "@type": [
+        "sosa:Observation",
+        "owl:NamedIndividual"
+      ],
+      "sosa:madeBySensor": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "sosa:resultTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-10T07:30:10"
+      }
+    },
+    {
+      "@id": "dpv:hasPersonalDataCategory",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "dpv:PersonalDataCategory",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "ontology:alternativeName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "owl:Thing"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Restrict",
+      "@type": [
+        "dpv:Restrict",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:TechnicalOrganisationalMeasure",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "ontology:Organisation",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "dpv:location",
+      "@type": "owl:ObjectProperty",
+      "rdfs:range": {
+        "@id": "dpv:StorageLocation"
+      }
+    },
+    {
+      "@id": "dpv:CommercialResearch",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:ResearchAndDevelopment"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Acquire",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Acquire"
+      ]
+    },
+    {
+      "@id": "dpv:ThirdParty",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ],
+      "rdfs:subClassOf": {
+        "@id": "dpv:Recipient"
+      }
+    },
+    {
+      "@id": "ssn:hasProperty",
+      "@type": "owl:ObjectProperty",
+      "owl:inverseOf": {
+        "@id": "ssn:isPropertyOf"
+      },
+      "rdfs:domain": {
+        "@id": "owl:Thing"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#UniversityInnsbruck",
+      "@type": [
+        "ontology:University",
+        "dpv:ThirdParty",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo",
+      "@type": "owl:Ontology"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasUserConsentRequired",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:boolean"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasAutomobile",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Driver"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#BMW3OfSaschaWeber",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:FeatureOfInterest"
+      ],
+      "sosa:hosts": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#weaver_saschaGPSSensor"
+      },
+      "ssn:hasProperty": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation"
+      }
+    },
+    {
+      "@id": "dpv:DiscloseByTransmission",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Disclose"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#withdrawalTime",
+      "@type": "owl:DatatypeProperty"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Innsbruck",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "sosa:madeBySensor",
+      "@type": "owl:ObjectProperty",
+      "owl:inverseOf": {
+        "@id": "sosa:madeObservation"
+      },
+      "rdfs:domain": {
+        "@id": "sosa:Observation"
+      },
+      "rdfs:range": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Austria",
+      "@type": "owl:NamedIndividual",
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasPlace": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Austria"
+      }
+    },
+    {
+      "@id": "dpv:Anonymise",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "dpv:Combine",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "dpv:consentNotice",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "dpv:SellTargettedAdvertisements",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:CommercialInterest"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Collect",
+      "@type": [
+        "dpv:Collect",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasPlace",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "dpv:expiryCondition",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dpv:expiry"
+      }
+    },
+    {
+      "@id": "dpv:MakeAvailable",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Disclose"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCarAppDisplayName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasMaxNumberOfCarsTarget",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:int"
+      }
+    },
+    {
+      "@id": "dpv:measureImplementedBy",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "dpv:CarOwned",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Ownership"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Obtain",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Obtain"
+      ]
+    },
+    {
+      "@id": "sosa:hasSimpleResult",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "sosa:Observation"
+      },
+      "rdfs:range": {
+        "@id": "rdfs:Literal"
+      }
+    },
+    {
+      "@id": "http://www.opengis.net/gml#Point",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "dpv:PhysicalAddress",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Contact"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#RoadsOfInnsbruck_DataStorageTime",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Disseminate",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Disseminate"
+      ]
+    },
+    {
+      "@id": "dpv:provisionBy",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "sosa:isFeatureOfInterestOf",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "owl:Thing"
+      },
+      "rdfs:range": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasState",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation_emy1772_c1",
+      "@type": [
+        "owl:NamedIndividual",
+        "http://www.sti-innsbruck.at/ontology/campaneo#SensorData"
+      ],
+      "dpv:hasProcessing": [
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Store"
+        },
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Erase"
+        },
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Obtain"
+        },
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Derive"
+        },
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Anonymise"
+        }
+      ],
+      "dpv:hasPurpose": [
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#EnhancementOfMobilityInfrastructure"
+        },
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#UseOfCityStreets"
+        }
+      ],
+      "http://www.sti-innsbruck.at/ontology/campaneo#dataSource": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      }
+    },
+    {
+      "@id": "ontology:EducationalInstitution",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "ontology:Organisation"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:Record",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Obtain"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "ontology:University",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "ontology:EducationalInstitution"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#PseudoAnonymise",
+      "@type": [
+        "dpv:PseudoAnonymise",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:withdrawalByJustification",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "dpv:withdrawalBy",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "dpv:GPSCoordinate",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#SensorData"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasTimestamp",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "owl:Thing"
+      },
+      "rdfs:range": {
+        "@id": "xsd:dateTimeStamp"
+      }
+    },
+    {
+      "@id": "dpv:Store",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Processing"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasUserReward",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:float"
+      }
+    },
+    {
+      "@id": "dpv:DataController",
+      "@type": [
+        "owl:NamedIndividual",
+        "owl:Class"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#VolkswagenAG",
+      "@type": [
+        "ontology:Company",
+        "dpv:DataProcessor",
+        "http://www.sti-innsbruck.at/ontology/campaneo#Campaigner",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:Acquire",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Obtain"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#SaschaWeber",
+      "@type": [
+        "http://www.sti-innsbruck.at/ontology/campaneo#Driver",
+        "owl:NamedIndividual"
+      ],
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasAutomobile": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#BMW3OfSaschaWeber"
+      },
+      "ontology:alternativeName": "weaver_sascha",
+      "ontology:name": "Sascha Weber"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#EmiliaGalotti",
+      "@type": [
+        "http://www.sti-innsbruck.at/ontology/campaneo#Driver",
+        "owl:NamedIndividual"
+      ],
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasAutomobile": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#FordGalaxyOfEmiliaGalotti"
+      },
+      "ontology:alternativeName": "emy1772",
+      "ontology:name": "Emilia Galotti"
+    },
+    {
+      "@id": "dpv:Recipient",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#TyroleanGovernment",
+      "@type": [
+        "dpv:DataProcessor",
+        "ontology:GovernmentAgency",
+        "owl:NamedIndividual",
+        "http://www.sti-innsbruck.at/ontology/campaneo#Campaigner"
+      ],
+      "http://www.sti-innsbruck.at/ontology/campaneo#runs": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#RoadsOfInnsbruck"
+      }
+    },
+    {
+      "@id": "dpv:SellInsightsFromData",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:CommercialInterest"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#dataSource",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#SensorData"
+      },
+      "rdfs:range": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#EnhancementOfMobilityInfrastructure",
+      "@type": [
+        "dpv:NonCommercialResearch",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Record",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Record"
+      ]
+    },
+    {
+      "@id": "sosa:observedProperty",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "sosa:Observation"
+      }
+    },
+    {
+      "@id": "dpv:NonCommercialResearch",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:ResearchAndDevelopment"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaign",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      },
+      "rdfs:range": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      }
+    },
+    {
+      "@id": "sosa:observes",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "dpv:Transform",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Processing"
+      }
+    },
+    {
+      "@id": "sosa:Platform",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "sosa:Observation",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ],
+      "rdfs:subClassOf": {
+        "@id": "sosa:FeatureOfInterest"
+      }
+    },
+    {
+      "@id": "dpv:Processing",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:ResearchAndDevelopment",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Purpose"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaigner",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:Alter",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "ontology:Group",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "ontology:University"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#LeonardoPaez",
+      "@type": [
+        "owl:NamedIndividual",
+        "http://www.sti-innsbruck.at/ontology/campaneo#Driver"
+      ],
+      "ontology:alternativeName": "leo_the_lion",
+      "ontology:name": "Leonardo Hector Paez"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Share",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Share"
+      ]
+    },
+    {
+      "@id": "sosa:isHostedBy",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasReasonForDataCollection",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "ontology:GovernmentAgency",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "ontology:Organisation"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#InnsbruckConurbation",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "dpv:SellProductsToDataSubject",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:CommercialInterest"
+      }
+    },
+    {
+      "@id": "ontology:name",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "owl:Thing"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ProvisionByWebapp",
+      "@type": [
+        "owl:NamedIndividual",
+        "http://www.sti-innsbruck.at/ontology/campaneo#ConsentMethod"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignStartDate",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#RoadsOfInnsbruck_onlyAustria",
+      "@type": [
+        "dpv:StorageLocation",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "sosa:ObservableProperty",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "dpv:Disclose",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Processing"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCarAppDisplayDescriptionLong",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "dpv:AcademicResearch",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:ResearchAndDevelopment"
+      }
+    },
+    {
+      "@id": "sosa:Sensor",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ],
+      "rdfs:subClassOf": {
+        "@id": "sosa:Observation"
+      }
+    },
+    {
+      "@id": "ontology:Place",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "sosa:resultTime",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "sosa:Observation"
+      },
+      "rdfs:range": {
+        "@id": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "dpv:hasProcessing",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#SensorData"
+      },
+      "rdfs:range": {
+        "@id": "dpv:Processing"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#FordGalaxyOfEmiliaGalotti",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:FeatureOfInterest"
+      ],
+      "sosa:hosts": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor"
+      },
+      "ssn:hasProperty": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation"
+      }
+    },
+    {
+      "@id": "sosa:hosts",
+      "@type": "owl:ObjectProperty",
+      "owl:inverseOf": {
+        "@id": "sosa:isHostedBy"
+      },
+      "rdfs:range": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Fiat500OfMaraFumagalli",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:FeatureOfInterest"
+      ],
+      "ssn:hasProperty": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation"
+      }
+    },
+    {
+      "@id": "dpv:hasDataController",
+      "@type": "owl:ObjectProperty",
+      "rdfs:range": {
+        "@id": "dpv:DataController"
+      }
+    },
+    {
+      "@id": "sosa:FeatureOfInterest",
+      "@type": [
+        "owl:NamedIndividual",
+        "owl:Class"
+      ]
+    },
+    {
+      "@id": "dpv:withdrawalTime",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Transmit",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Transmit"
+      ]
+    },
+    {
+      "@id": "dpv:hasDataSubject",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Destruct",
+      "@type": [
+        "dpv:Destruct",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "ontology:Company",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "ontology:Organisation"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignEndDate",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "dpv:Contact",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "dpv:Purpose",
+      "@type": [
+        "owl:NamedIndividual",
+        "owl:Class"
+      ]
+    },
+    {
+      "@id": "dpv:Destruct",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Remove"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#emy1772GPSSensor",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Sensor"
+      ],
+      "sosa:hasFeatureOfInterest": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#FordGalaxyOfEmiliaGalotti"
+      },
+      "sosa:observes": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Anonymise",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Anonymise"
+      ]
+    },
+    {
+      "@id": "dpv:PseudoAnonymise",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Derive",
+      "@type": [
+        "dpv:Derive",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCarAppDisplayImage",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:anyURI"
+      }
+    },
+    {
+      "@id": "dpv:StorageLocation",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#SensorData"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignDataUsageType",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "dpv:Purpose"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignDurationHours",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:int"
+      }
+    },
+    {
+      "@id": "dpv:Disseminate",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Disclose"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Driver",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ],
+      "rdfs:subClassOf": {
+        "@id": "ontology:Person"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Erase",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Erase"
+      ]
+    },
+    {
+      "@id": "dpv:Obtain",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Processing"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#RoadsOfInnsbruck",
+      "@type": [
+        "http://www.sti-innsbruck.at/ontology/campaneo#Campaign",
+        "owl:NamedIndividual"
+      ],
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasApiVersion": "1.0",
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignDataUsageType": [
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#UseOfCityStreets"
+        },
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#EnhancementOfMobilityInfrastructure"
+        }
+      ],
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignDurationHours": {
+        "@type": "xsd:int",
+        "@value": "8760"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignEndDate": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-12-31T23:59:59"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaignStartDate": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-01-01T00:00:00"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasCarAppDisplayDescriptionLong": "This campaign is run in order to find out which roads in Innsbruck and its conurbation are heavily used. It is collected GPS data from cars moving in Innsbruck and a radius of 15 km around. The goal is to invest more money into those streets that are mainly used.",
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasCarAppDisplayName": "Roads-of-Innsbruck",
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasId": "IBK2020hjdf123",
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasMaxNumberOfCarsTarget": {
+        "@type": "xsd:int",
+        "@value": "1500000"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasMinNumberOfCarsRequired": {
+        "@type": "xsd:int",
+        "@value": "50000"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasReasonForDataCollection": "Enhancement of streetnetwork in Innsbruck and its conurbation",
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasState": "online",
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasThirdParty": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#UniversityInnsbruck"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasUserConsentRequired": false,
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasUserReward": false,
+      "http://www.sti-innsbruck.at/ontology/campaneo#isRunBy": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#TyroleanGovernment"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Remove",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Remove"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#WithdrawalByWebapp",
+      "@type": [
+        "http://www.sti-innsbruck.at/ontology/campaneo#ConsentMethod",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:Consent",
+      "@type": [
+        "owl:Class",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:DataProcessor",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Recipient"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#isRunBy",
+      "@type": "owl:ObjectProperty",
+      "owl:inverseOf": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#runs"
+      },
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaigner"
+      }
+    },
+    {
+      "@id": "sosa:isObservedBy",
+      "@type": "owl:ObjectProperty",
+      "owl:inverseOf": {
+        "@id": "sosa:observes"
+      },
+      "rdfs:range": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#weaver_sascheGPSSensor",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Transform",
+      "@type": [
+        "dpv:Transform",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#runs",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaigner"
+      },
+      "rdfs:range": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      }
+    },
+    {
+      "@id": "sosa:hasFeatureOfInterest",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#CampaNeo",
+      "@type": [
+        "dpv:DataController",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:Ownership",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "http://www.opengis.net/gml#Geometry",
+      "@type": "owl:NamedIndividual"
+    },
+    {
+      "@id": "dpv:withdrawalMethod",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "dpv:storage",
+      "@type": "owl:ObjectProperty"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasId",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "dpv:hasRecipient",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      },
+      "rdfs:range": {
+        "@id": "dpv:Recipient"
+      }
+    },
+    {
+      "@id": "dpv:Adapt",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "dpv:TelephoneNumber",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Contact"
+      }
+    },
+    {
+      "@id": "dpv:Derive",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#SensorData",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "sosa:Sensor"
+      }
+    },
+    {
+      "@id": "dpv:hasPurpose",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#SensorData"
+      },
+      "rdfs:range": {
+        "@id": "dpv:Purpose"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#weaver_saschaGPSSensor",
+      "@type": [
+        "owl:NamedIndividual",
+        "sosa:Sensor"
+      ],
+      "sosa:hasFeatureOfInterest": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#FordGalaxyOfEmiliaGalotti"
+      },
+      "sosa:observes": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Consent_RoadsOfInnsbruck_emy1772",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Consent"
+      ],
+      "dpv:hasDataController": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#CampaNeo"
+      },
+      "dpv:hasDataSubject": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#EmiliaGalotti"
+      },
+      "dpv:hasPersonalDataCategory": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#GPSLocation_emy1772_c1"
+      },
+      "dpv:hasRecipient": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#TyroleanGovernment"
+      },
+      "dpv:provisionBy": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#EmiliaGalotti"
+      },
+      "dpv:provisionMethod": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ProvisionByWebapp"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasCampaign": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#RoadsOfInnsbruck"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasThirdParty": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#UniversityInnsbruck"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Combine",
+      "@type": [
+        "dpv:Combine",
+        "owl:NamedIndividual"
+      ]
+    },
+    {
+      "@id": "dpv:Align",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Transform"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasThirdParty",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": [
+        {
+          "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+        },
+        {
+          "@id": "dpv:Consent"
+        }
+      ],
+      "rdfs:range": {
+        "@id": "dpv:ThirdParty"
+      }
+    },
+    {
+      "@id": "dpv:EmailAddress",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Contact"
+      }
+    },
+    {
+      "@id": "ontology:Person",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#hasMinNumberOfCarsRequired",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Campaign"
+      },
+      "rdfs:range": {
+        "@id": "xsd:int"
+      }
+    },
+    {
+      "@id": "dpv:Transmit",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Disclose"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#ConsentMethod",
+      "@type": [
+        "owl:NamedIndividual",
+        "owl:Class"
+      ]
+    },
+    {
+      "@id": "dpv:expiry",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      }
+    },
+    {
+      "@id": "dpv:Share",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Disclose"
+      }
+    },
+    {
+      "@id": "dpv:CommercialInterest",
+      "@type": "owl:Class",
+      "rdfs:subClassOf": {
+        "@id": "dpv:Purpose"
+      }
+    },
+    {
+      "@id": "ssn:isPropertyOf",
+      "@type": "owl:ObjectProperty",
+      "rdfs:range": {
+        "@id": "owl:Thing"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#RoadsOfInnsbruck_emy1772",
+      "@type": "owl:NamedIndividual",
+      "dpv:hasDataController": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#CampaNeo"
+      },
+      "dpv:hasDataSubject": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#EmiliaGalotti"
+      },
+      "dpv:hasRecipient": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#TyroleanGovernment"
+      },
+      "http://www.sti-innsbruck.at/ontology/campaneo#hasThirdParty": {
+        "@id": "http://www.sti-innsbruck.at/ontology/campaneo#UniversityInnsbruck"
+      }
+    },
+    {
+      "@id": "http://www.sti-innsbruck.at/ontology/campaneo#Store",
+      "@type": [
+        "owl:NamedIndividual",
+        "dpv:Store"
+      ]
+    },
+    {
+      "@id": "dpv:expiryTime",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "dpv:Consent"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dpv:expiry"
+      }
+    },
+    {
+      "@id": "sosa:madeObservation",
+      "@type": "owl:ObjectProperty",
+      "rdfs:domain": {
+        "@id": "sosa:Sensor"
+      },
+      "rdfs:range": {
+        "@id": "sosa:Observation"
+      }
+    }
+  ]
+}
