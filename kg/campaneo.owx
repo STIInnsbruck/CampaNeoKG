@@ -1,0 +1,1434 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.sti-innsbruck.at/ontology/campaneo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.sti-innsbruck.at/ontology/campaneo">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R6vyWBJYvOCs4M7ipniOXh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7Lf6fzhzWMvkam0h8T1pTh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R92JDQqIaaYLHOIpMYGurHs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9DVqupMLqr0cDw90EWvoDB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBw6fmf8DVbBPMCxRJI7LNL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCACgeSf8ZNLKgKHMXYe73x"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCJo7zJ1MPhiLfQV8TC0dP4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDVJFGej9i0Gsw52N3loao4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RSa9BYGIYOwW0C6jFpnBJn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#AcademicResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#AccessControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialInterest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#CreatePersonalizedRecommendations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#CustomerCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#DeliveryOfGoods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#FraudPreventionAndDetection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#IdentityVerification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#ImproveExistingProductsAndServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#IncreaseServiceRobustness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#InternalResourceOptimisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#NonCommercialResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForConsumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForController"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimiseUserInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#PersonalisedBenefits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#ResearchAndDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#SellDataToThirdParties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#SellInsightsFromData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#SellProductsToDataSubject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#SellTargettedAdvertisements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceOptimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#ServicePersonalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceProvision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/dpv#UserInterfacePersonalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCampaignDataExpiration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCampaignDataUsageType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#expiry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#expiryCondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#expiryTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observedProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/alternativeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.opengis.net/gml#posList"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasApiVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCampaignDataExpiration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCampaignDurationHours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCampaignEndDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCampaignStartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCarAppDisplayDescriptionLong"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCarAppDisplayImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCarAppDisplayName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaxNumberOfCarsTarget"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMinNumberOfCarsRequired"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasReasonForDataCollection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimestamp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUserConsentRequired"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUserReward"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withdrawalTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/ns/dpv#provisionTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://dbpedia.org/ontology/Automobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://dbpedia.org/ontology/Place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.opengis.net/gml#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.opengis.net/gml#Point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.opengis.net/gml#Polygon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acquire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adapt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Align"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anonymise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AudiA5OfLeonardoPaez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Austria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMW3OfSaschaWeber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CampaNeo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Campaign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Campaigner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Collect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Combine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConsentMethod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_emy1772"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_leo_the_lion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_mafu777"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_weaver_sascha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Derive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Destruct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disclose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiscloseByTransmission"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disseminate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Driver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EmiliaGalotti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnhancementOfMobilityInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fiat500OfMaraFumagalli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FordGalaxyOfEmiliaGalotti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPSLocation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPSLocation_emy1772_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPSLocation_leo_the_lion_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPSLocation_mafu777_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPSLocation_weaver_sascha_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Innsbruck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InnsbruckConurbation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeonardoPaez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MakeAvailable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaraFumagalli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obtain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProvisionByWebapp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PseudoAnonymise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Record"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remove"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Restrict"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RoadsOfInnsbruck_DataStorageTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RoadsOfInnsbruck_emy1772"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RoadsOfInnsbruck_onlyAustria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaschaWeber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Share"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Store"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transmit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TyroleanGovernment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UniversityInnsbruck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UseOfCityStreets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VolkswagenAG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WithdrawalByWebapp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leo_the_lionGPSSensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mafu777GPSSensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ob1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ob2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ob3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ob4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ob5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ob6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ob7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pt1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pt2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pt3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pt4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pt5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pt6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pt7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#weaver_saschaGPSSensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#weaver_sascheGPSSensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Consent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#DataController"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#PersonalDataCategory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Recipient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#TechnicalOrganisationalMeasure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#ThirdParty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Observation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Platform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Result"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R6vyWBJYvOCs4M7ipniOXh"/>
+        <Class IRI="#Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7Lf6fzhzWMvkam0h8T1pTh"/>
+        <Class IRI="#Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R92JDQqIaaYLHOIpMYGurHs"/>
+        <Class IRI="http://webprotege.stanford.edu/RDVJFGej9i0Gsw52N3loao4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9DVqupMLqr0cDw90EWvoDB"/>
+        <Class IRI="#Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBw6fmf8DVbBPMCxRJI7LNL"/>
+        <Class IRI="http://webprotege.stanford.edu/RDVJFGej9i0Gsw52N3loao4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCACgeSf8ZNLKgKHMXYe73x"/>
+        <Class IRI="#Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCJo7zJ1MPhiLfQV8TC0dP4"/>
+        <Class IRI="#Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDVJFGej9i0Gsw52N3loao4"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RSa9BYGIYOwW0C6jFpnBJn"/>
+        <Class IRI="http://webprotege.stanford.edu/RDVJFGej9i0Gsw52N3loao4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorData"/>
+        <Class IRI="http://webprotege.stanford.edu/R6vyWBJYvOCs4M7ipniOXh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#AcademicResearch"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ResearchAndDevelopment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#AccessControl"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialInterest"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialResearch"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ResearchAndDevelopment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#CreatePersonalizedRecommendations"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ServicePersonalization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#CustomerCare"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceProvision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#DeliveryOfGoods"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceProvision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#FraudPreventionAndDetection"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#IdentityVerification"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#ImproveExistingProductsAndServices"/>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForController"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#IncreaseServiceRobustness"/>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForController"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#InternalResourceOptimisation"/>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForController"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#NonCommercialResearch"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ResearchAndDevelopment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForConsumer"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceOptimization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForController"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceOptimization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimiseUserInterface"/>
+        <Class IRI="http://www.w3.org/ns/dpv#OptimisationForConsumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#PersonalisedBenefits"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ServicePersonalization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+        <Class IRI="#Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#ResearchAndDevelopment"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#Security"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#SellDataToThirdParties"/>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialInterest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#SellInsightsFromData"/>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialInterest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#SellProductsToDataSubject"/>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialInterest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#SellTargettedAdvertisements"/>
+        <Class IRI="http://www.w3.org/ns/dpv#CommercialInterest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceOptimization"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#ServicePersonalization"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#ServiceProvision"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/dpv#UserInterfacePersonalisation"/>
+        <Class IRI="http://www.w3.org/ns/dpv#ServicePersonalization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+        <Class IRI="#SensorData"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/dpv#NonCommercialResearch"/>
+        <NamedIndividual IRI="#EnhancementOfMobilityInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SensorData"/>
+        <NamedIndividual IRI="#GPSLocation_emy1772_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SensorData"/>
+        <NamedIndividual IRI="#GPSLocation_leo_the_lion_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SensorData"/>
+        <NamedIndividual IRI="#GPSLocation_mafu777_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SensorData"/>
+        <NamedIndividual IRI="#GPSLocation_weaver_sascha_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Campaign"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/dpv#AcademicResearch"/>
+        <NamedIndividual IRI="#UseOfCityStreets"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_emy1772_c1"/>
+        <NamedIndividual IRI="#EnhancementOfMobilityInfrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_emy1772_c1"/>
+        <NamedIndividual IRI="#UseOfCityStreets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_leo_the_lion_c1"/>
+        <NamedIndividual IRI="#EnhancementOfMobilityInfrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_leo_the_lion_c1"/>
+        <NamedIndividual IRI="#UseOfCityStreets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_mafu777_c1"/>
+        <NamedIndividual IRI="#EnhancementOfMobilityInfrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_mafu777_c1"/>
+        <NamedIndividual IRI="#UseOfCityStreets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_weaver_sascha_c1"/>
+        <NamedIndividual IRI="#EnhancementOfMobilityInfrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <NamedIndividual IRI="#GPSLocation_weaver_sascha_c1"/>
+        <NamedIndividual IRI="#UseOfCityStreets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCampaignDataExpiration"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck_DataStorageTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCampaignDataUsageType"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <NamedIndividual IRI="#EnhancementOfMobilityInfrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCampaignDataUsageType"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <NamedIndividual IRI="#UseOfCityStreets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#ob1"/>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#ob2"/>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#ob3"/>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#ob4"/>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#ob5"/>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#ob6"/>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#ob7"/>
+        <NamedIndividual IRI="#emy1772GPSSensor"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://dbpedia.org/ontology/Automobile"/>
+        <Literal>An &quot;Automobile&quot; is a car that hosts one multiple &quot;Sensors&quot; and is therfore the data provider for CampaNeo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://dbpedia.org/ontology/Place"/>
+        <Literal>Geographical place</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.opengis.net/gml#Geometry"/>
+        <Literal>Superclass of geometrical shapes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.opengis.net/gml#Point"/>
+        <Literal>GPS coordinates of the shape e.g. &quot;47.234 71.234&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.opengis.net/gml#Polygon"/>
+        <Literal>A polygon is a series of whitespace separated coordinates to define a region. Here the first and last coordinate have to be the same.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="#Campaign"/>
+        <Literal>A &quot;Campaign&quot; is a planned project that needs data from the CampaNeo platform. It is run by an officially registered &quot;Campaigner&quot;. &quot;Campaigns&quot; are displayed in the webapp to car drivers who have to give &quot;Consent&quot; in order to make the data available for the &quot;Campaign&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="#Campaign"/>
+        <Literal>A Campaign is a project that is run by a &quot;Campaigner&quot; that requires data provided by CampaNeo.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="#Campaigner"/>
+        <Literal>A &quot;Campaigner&quot; is an &quot;Organization&quot; or a &quot;Person&quot; who runs a &quot;Campaign&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="#Campaigner"/>
+        <Literal>Any agent (person or organization) that runs one or multiple campaigns on CampaNeo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="#ConsentMethod"/>
+        <Literal>A &quot;ConsentMethod&quot; describes how a Consent is provisioned or withdrawed, e.g. clicking a button.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/dpv#provisionTime"/>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_emy1772"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T06:47:13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#withdrawalTime"/>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_leo_the_lion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-19T10:44:34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/dpv#provisionTime"/>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_leo_the_lion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-11T07:04:58</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/dpv#provisionTime"/>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_mafu777"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-05T17:12:35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/dpv#provisionTime"/>
+        <NamedIndividual IRI="#Consent_RoadsOfInnsbruck_weaver_sascha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-01T13:26:04</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="#Driver"/>
+        <Literal>A &quot;Driver&quot; owns an &quot;Automobile&quot; and is the person who has to give &quot;Consent&quot; to &quot;Campaigns&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/alternativeName"/>
+        <NamedIndividual IRI="#EmiliaGalotti"/>
+        <Literal>emy1772</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/name"/>
+        <NamedIndividual IRI="#EmiliaGalotti"/>
+        <Literal>Emilia Galotti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#posList"/>
+        <NamedIndividual IRI="#Innsbruck"/>
+        <Literal>45.3 11.3 47.3 11.4 47.2 11.4 47.2 11.3 45.3 11.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#posList"/>
+        <NamedIndividual IRI="#InnsbruckConurbation"/>
+        <Literal>47.3 11.2 47.3 11.6 47.0 11.6 47.1 11.1 47.3 11.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/alternativeName"/>
+        <NamedIndividual IRI="#LeonardoPaez"/>
+        <Literal>leo_the_lion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/name"/>
+        <NamedIndividual IRI="#LeonardoPaez"/>
+        <Literal>Leonardo Hector Paez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/alternativeName"/>
+        <NamedIndividual IRI="#MaraFumagalli"/>
+        <Literal>mafu777</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/name"/>
+        <NamedIndividual IRI="#MaraFumagalli"/>
+        <Literal>Mara Fumagalli</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasApiVersion"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal>1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCampaignDurationHours"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8760</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCampaignEndDate"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-31T23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCampaignStartDate"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCarAppDisplayDescriptionLong"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal>This campaign is run in order to find out which roads in Innsbruck and its conurbation are heavily used. It is collected GPS data from cars moving in Innsbruck and a radius of 15 km around. The goal is to invest more money into those streets that are mainly used.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCarAppDisplayName"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal>Roads-of-Innsbruck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal>IBK2020hjdf123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaxNumberOfCarsTarget"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1500000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinNumberOfCarsRequired"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasReasonForDataCollection"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal>Enhancement of streetnetwork in Innsbruck and its conurbation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal>online</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUserConsentRequired"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUserReward"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCampaignDataExpiration"/>
+        <NamedIndividual IRI="#RoadsOfInnsbruck_DataStorageTime"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-31T23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/alternativeName"/>
+        <NamedIndividual IRI="#SaschaWeber"/>
+        <Literal>weaver_sascha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://dbpedia.org/ontology/name"/>
+        <NamedIndividual IRI="#SaschaWeber"/>
+        <Literal>Sascha Weber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#ob1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T07:30:10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#ob2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T07:30:12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#ob3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T07:30:14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#ob4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T07:30:16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#ob5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T07:30:18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#ob6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T07:30:20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#ob7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-10T07:30:22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <NamedIndividual IRI="#pt1"/>
+        <Literal>47.1234 11.4321</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <NamedIndividual IRI="#pt2"/>
+        <Literal>47.1244 11.4423</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <NamedIndividual IRI="#pt3"/>
+        <Literal>47.1354 11.4425</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <NamedIndividual IRI="#pt4"/>
+        <Literal>47.1344 11.4425</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <NamedIndividual IRI="#pt5"/>
+        <Literal>47.1444 11.4546</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <NamedIndividual IRI="#pt6"/>
+        <Literal>47.1454 11.4643</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <NamedIndividual IRI="#pt7"/>
+        <Literal>47.1543 11.4674</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Consent"/>
+        <Literal>A &quot;Consent&quot; is the legal basis of the data handling. A &quot;Consent&quot; has to be given by a &quot;Driver&quot; to a &quot;Campaign&quot; that it is allowed to access the data.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#DataController"/>
+        <Literal>An entity that controls the flow of the data. For instance &quot;CampaNeo&quot; is a &quot;DataController&quot; managing who gets the data from whom.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#PersonalDataCategory"/>
+        <Literal>A category for classifying the sensor data into categories</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Processing"/>
+        <Literal>Ways how the sensor data is used in a &quot;Campaign&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Purpose"/>
+        <Literal>&quot;Purposes&quot; defines for why the data is asked for in a &quot;Campaign&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#Recipient"/>
+        <Literal>A &quot;Recipient&quot; is an &quot;Agent&quot; who receives the sensor data. In our case the &quot;Campaigner&quot; is the default &quot;Recipient&quot; but in addition there can be also &quot;ThirdParty&quot; recipients with whom the data is shared.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#TechnicalOrganisationalMeasure"/>
+        <Literal>Defintions of restrictions of how the data is used by a &quot;Recipient&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/dpv#ThirdParty"/>
+        <Literal>An &quot;Agent&quot; who receives the sensor data by an &quot;Campaigner&quot;. &quot;ThirdParty&quot; have to be accepted by the &quot;Driver&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <Literal>A &quot;FeatureOfInterest&quot; is an entity that whose properties are measured by a &quot;Sensor&quot;. When the pressure of the car&apos;s wheels are measured then can either be the wheels or in less detail the car itself be the &quot;FeatureOfInterest&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <Literal>An entity whos properties are observed. For instance if the pressure of the wheels are observed by an &quot;Sensor&quot; then the &quot;Auomobile&quot; is the &quot;FeatureOfInterst&quot; and the &quot;ObservableProperty&quot; is the pressure.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <Literal>A property of a &quot;FeatureOfInterest&quot; that can be measured and can be observed by a &quot;Sensor&quot;. For instance the car&apos;s velocity could be an &quot;ObservableProperty&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Observation"/>
+        <Literal>A concrete time-dependent measure that was taken by a &quot;Sensor&quot; of an &quot;ObservableProperty&quot;. It consists mainly of the time when it was measured and of a data or object as result</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Observation"/>
+        <Literal>An &quot;Observation&quot; is an act performed by a &quot;Sensor&quot; (e.g. wheel pressure sensor) in order to get the &quot;ObservableProperty&quot; (e.g. pressure of a wheel) of a &quot;FeatureOfInterest&quot; (e.g. car).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Platform"/>
+        <Literal>A &quot;Platform&quot; is hosting one or mutliple &quot;Sensors&quot;, e.g. an &quot;Automobile&quot; can be a &quot;Platform&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Result"/>
+        <Literal>The measure taken by an &quot;Sensor&quot; when it makes an &quot;Observation&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Sensor"/>
+        <Literal>A &quot;Sensor&quot; is a device that collects data of an &quot;Automobile&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <NamedIndividual IRI="http://www.w3.org/ns/sosa/Sensor"/>
+        <Literal>A device that takes &quot;Observations&quot; (= measurements) of an &quot;ObservableProperty&quot; of a &quot;FeatureOfInterest&quot;.</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#expiryCondition"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#expiry"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#expiryTime"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#expiry"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCampaignDataExpiration"/>
+        <Class IRI="http://webprotege.stanford.edu/R9DVqupMLqr0cDw90EWvoDB"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCampaignDataUsageType"/>
+        <Class IRI="#Campaign"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <Class IRI="#SensorData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <Class IRI="#SensorData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observedProperty"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCampaignDataExpiration"/>
+        <Class IRI="#Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCampaignDataUsageType"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/dpv#hasPurpose"/>
+        <Class IRI="http://www.w3.org/ns/dpv#Purpose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+        <Class IRI="http://webprotege.stanford.edu/R6vyWBJYvOCs4M7ipniOXh"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observedProperty"/>
+        <Class IRI="http://webprotege.stanford.edu/R6vyWBJYvOCs4M7ipniOXh"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://dbpedia.org/ontology/alternativeName"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://dbpedia.org/ontology/name"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasApiVersion"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCampaignDurationHours"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCampaignEndDate"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCampaignStartDate"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCarAppDisplayDescriptionLong"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCarAppDisplayImage"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCarAppDisplayName"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasId"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMaxNumberOfCarsTarget"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMinNumberOfCarsRequired"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasReasonForDataCollection"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasState"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimestamp"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUserConsentRequired"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUserReward"/>
+        <Class IRI="#Campaign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/alternativeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.opengis.net/gml#pos"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.opengis.net/gml#posList"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasApiVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCampaignDataExpiration"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCampaignDurationHours"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCampaignEndDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCampaignStartDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCarAppDisplayDescriptionLong"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCarAppDisplayImage"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCarAppDisplayName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMaxNumberOfCarsTarget"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMinNumberOfCarsRequired"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasReasonForDataCollection"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasState"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimestamp"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUserConsentRequired"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUserReward"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="rdfs:comment"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/ns/dpv#provisionTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R6vyWBJYvOCs4M7ipniOXh</IRI>
+        <Literal>CollectedData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7Lf6fzhzWMvkam0h8T1pTh</IRI>
+        <Literal>Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R92JDQqIaaYLHOIpMYGurHs</IRI>
+        <Literal>longitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9DVqupMLqr0cDw90EWvoDB</IRI>
+        <Literal>Duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBw6fmf8DVbBPMCxRJI7LNL</IRI>
+        <Literal>altitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCACgeSf8ZNLKgKHMXYe73x</IRI>
+        <Literal>EndDate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCJo7zJ1MPhiLfQV8TC0dP4</IRI>
+        <Literal>StartDate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDVJFGej9i0Gsw52N3loao4</IRI>
+        <Literal>GPS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RSa9BYGIYOwW0C6jFpnBJn</IRI>
+        <Literal>latitude</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
